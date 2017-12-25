@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout5"
+        android:layout_alignRight="@+id/linearLayout5"
+        android:layout_alignTop="@+id/linearLayout5"
+        android:layout_marginTop="83dp"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:text="Password"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="81dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.55"
+                android:text="Email Id       "
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/textView"
+                android:ems="10"
+                android:hint="admin email "
+                android:inputType="text"
+                tools:layout_editor_absoluteX="63dp"
+                tools:layout_editor_absoluteY="118dp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignLeft="@+id/linearLayout5"
+        android:layout_alignStart="@+id/linearLayout5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/adminlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout6"
+        android:layout_alignStart="@+id/linearLayout6"
+        android:layout_alignTop="@+id/linearLayout6"
+        android:text="Login" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="enter pass"
+        android:inputType="numberPassword" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

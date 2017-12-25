@@ -1,0 +1,343 @@
+{
+  "candidates" : {
+    "AAP AK" : {
+      "Age" : "40",
+      "Message" : "I will fool you later",
+      "Name" : "Arvid Kejriwal",
+      "Party" : "Aam Aadmi Party",
+      "Party code" : "AAP",
+      "constituency" : "5",
+      "votes" : "13"
+    },
+    "AAP AKR" : {
+      "Age" : "38",
+      "Message" : "I will fool you later",
+      "Name" : "Anand Kumar",
+      "Party" : "Aam Aadmi Party",
+      "Party code" : "AAP",
+      "constituency" : "4",
+      "votes" : "1"
+    },
+    "AAP AKT" : {
+      "Age" : "42",
+      "Message" : "I will fool you later",
+      "Name" : "Ashish Khetan",
+      "Party" : "Aam Aadmi Party",
+      "Party code" : "AAP",
+      "constituency" : "3",
+      "votes" : "1"
+    },
+    "AAP As" : {
+      "Age" : "38",
+      "Message" : "I will fool you later",
+      "Name" : "Ashutosh",
+      "Party" : "Aam Aadmi Party",
+      "Party code" : "AAP",
+      "constituency" : "1",
+      "votes" : "1"
+    },
+    "AAP CDS" : {
+      "Age" : "65",
+      "Message" : "I will fool you later",
+      "Name" : "Col. Devender Sehrawat",
+      "Party" : "Aam Aadmi Party",
+      "Party code" : "AAP",
+      "constituency" : "6",
+      "votes" : "1"
+    },
+    "AAP JS" : {
+      "Age" : "52",
+      "Message" : "I will fool you later",
+      "Name" : "Jarnail Singh",
+      "Party" : "Aam Aadmi Party",
+      "Party code" : "AAP",
+      "constituency" : "7",
+      "votes" : "1"
+    },
+    "AAP RMG" : {
+      "Age" : "45",
+      "Message" : "I will fool you later",
+      "Name" : "Raj Mohan Gandhi",
+      "Party" : "Aam Aadmi Party",
+      "Party code" : "AAP",
+      "constituency" : "2",
+      "votes" : "1"
+    },
+    "BJP HW" : {
+      "Age" : "53",
+      "Message" : "I will do that",
+      "Name" : "Dr. Harsh Vardhan",
+      "Party" : "Bhartiya Janta Party",
+      "Party code" : "BJP",
+      "constituency" : "1",
+      "votes" : "2"
+    },
+    "BJP MG" : {
+      "Age" : "45",
+      "Message" : "I will do that",
+      "Name" : "Mahesh Giri",
+      "Party" : "Bhartiya Janta Party",
+      "Party code" : "BJP",
+      "constituency" : "2",
+      "votes" : "5"
+    },
+    "BJP ML" : {
+      "Age" : "39",
+      "Message" : "I will do that",
+      "Name" : "Smt. Meenakshi Lekhi",
+      "Party" : "Bhartiya Janta Party",
+      "Party code" : "BJP",
+      "constituency" : "3",
+      "votes" : "23"
+    },
+    "BJP MT" : {
+      "Age" : "44",
+      "Message" : "I will do that",
+      "Name" : "Manoj Tiwari",
+      "Party" : "Bhartiya Janta Party",
+      "Party code" : "BJP",
+      "constituency" : "4",
+      "votes" : "3"
+    },
+    "BJP PV" : {
+      "Age" : "53",
+      "Message" : "I will do that",
+      "Name" : "Parvesh Verma",
+      "Party" : "Bhartiya Janta Party",
+      "Party code" : "BJP",
+      "constituency" : "7",
+      "votes" : "12"
+    },
+    "BJP RB" : {
+      "Age" : "59",
+      "Message" : "I will do that",
+      "Name" : "Ramesh Bidhuri",
+      "Party" : "Bhartiya Janta Party",
+      "Party code" : "BJP",
+      "constituency" : "6",
+      "votes" : "23"
+    },
+    "BJP UR" : {
+      "Age" : "33",
+      "Message" : "I will do that",
+      "Name" : "Udit Raj",
+      "Party" : "Bhartiya Janta Party",
+      "Party code" : "BJP",
+      "constituency" : "5",
+      "votes" : "21"
+    },
+    "BSP ASS" : {
+      "Age" : "62",
+      "Message" : "I will not fool you later",
+      "Name" : "Abdul Sami Salmani",
+      "Party" : "Bahujan Samaj Party",
+      "Party code" : "BSP",
+      "constituency" : "4",
+      "votes" : "13"
+    },
+    "BSP BP" : {
+      "Age" : "54",
+      "Message" : "I will not fool you later",
+      "Name" : "Basant Panwar",
+      "Party" : "Bahujan Samaj Party",
+      "Party code" : "BSP",
+      "constituency" : "5",
+      "votes" : "10"
+    },
+    "BSP MSS" : {
+      "Age" : "45",
+      "Message" : "I will not fool you later",
+      "Name" : "Moh. shakeel Saifi",
+      "Party" : "Bahujan Samaj Party",
+      "Party code" : "BSP",
+      "constituency" : "2",
+      "votes" : "3"
+    },
+    "BSP NP" : {
+      "Age" : "39",
+      "Message" : "I will not fool you later",
+      "Name" : "Narednra Kumar Pandey",
+      "Party" : "Bahujan Samaj Party",
+      "Party code" : "BSP",
+      "constituency" : "1",
+      "votes" : "12"
+    },
+    "BSP RPS" : {
+      "Age" : "39",
+      "Message" : "I will not fool you later",
+      "Name" : "Raj Pal Singh",
+      "Party" : "Bahujan Samaj Party",
+      "Party code" : "BSP",
+      "constituency" : "7",
+      "votes" : "21"
+    },
+    "BSP SG" : {
+      "Age" : "57",
+      "Message" : "I will not fool you later",
+      "Name" : "Solomon George",
+      "Party" : "Bahujan Samaj Party",
+      "Party code" : "BSP",
+      "constituency" : "3",
+      "votes" : "2"
+    },
+    "BSP SKR" : {
+      "Age" : "47",
+      "Message" : "I will not fool you later",
+      "Name" : "Sanjay Kumar Rai",
+      "Party" : "Bahujan Samaj Party",
+      "Party code" : "BSP",
+      "constituency" : "6",
+      "votes" : "11"
+    },
+    "INC AM" : {
+      "Age" : "49",
+      "Message" : "I would do this",
+      "Name" : "Ajay Makhan",
+      "Party" : "Indian National Congress",
+      "Party code" : "INC",
+      "constituency" : "3",
+      "votes" : "10"
+    },
+    "INC JPA" : {
+      "Age" : "52",
+      "Message" : "I would do this",
+      "Name" : "jai Prakash Agarwal",
+      "Party" : "Indian National Congress",
+      "Party code" : "INC",
+      "constituency" : "4",
+      "votes" : "22"
+    },
+    "INC KS" : {
+      "Age" : "49",
+      "Message" : "I would do this",
+      "Name" : "Kapil Sibbal",
+      "Party" : "Indian National Congress",
+      "Party code" : "INC",
+      "constituency" : "1",
+      "votes" : "23"
+    },
+    "INC KT" : {
+      "Age" : "52",
+      "Message" : "I would do this",
+      "Name" : "Smt. Krishna Tirath",
+      "Party" : "Indian National Congress",
+      "Party code" : "INC",
+      "constituency" : "5",
+      "votes" : "4"
+    },
+    "INC MM" : {
+      "Age" : "61",
+      "Message" : "I would do this",
+      "Name" : "Mahabal Mishra",
+      "Party" : "Indian National Congress",
+      "Party code" : "INC",
+      "constituency" : "5",
+      "votes" : "4"
+    },
+    "INC RK" : {
+      "Age" : "49",
+      "Message" : "I would do this",
+      "Name" : "Ramesh Kumar",
+      "Party" : "Indian National Congress",
+      "Party code" : "INC",
+      "constituency" : "6",
+      "votes" : "4"
+    },
+    "INC SD" : {
+      "Age" : "47",
+      "Message" : "I would do this",
+      "Name" : "Sandeep Dixit",
+      "Party" : "Indian National Congress",
+      "Party code" : "INC",
+      "constituency" : "2",
+      "votes" : "23"
+    }
+  },
+  "constituency" : [ null, {
+    "Candidates" : "AAP As,INC KS,BJP HW,BSP NP",
+    "Name" : "Chandini Chowk"
+  }, {
+    "Candidates" : "AAP RMG,INC SD,BJP MG,BSP MSS",
+    "Name" : "North East Delhi"
+  }, {
+    "Candidates" : "AAP AKT,INC AM,BJP ML,BSP SG",
+    "Name" : "East Delhi"
+  }, {
+    "Candidates" : "AAP AKR,INC JPA,BJP MT,BSP ASS",
+    "Name" : "New Delhi"
+  }, {
+    "Candidates" : "AAP AK,INC KT,BJP UR,BSP BP",
+    "Name" : "North West Delhi"
+  }, {
+    "Candidates" : "AAP CDS,INC RK,BJP RB,BSP SKR",
+    "Name" : "West Delhi"
+  }, {
+    "Candidates" : "AAP JS,INC MM,BJP PV,BSP RPS",
+    "Name" : "South Delhi"
+  } ],
+  "users" : {
+    "8601234562" : {
+      "Name" : "Sunny Acf",
+      "cons" : "5",
+      "flag" : "1",
+      "voted to" : "Arvid Kejriwal(AAP)",
+      "voter id" : "r"
+    },
+    "8601238225" : {
+      "Name" : "Sunny Arora",
+      "cons" : "4",
+      "flag" : "1",
+      "voted to" : "Arvid Kejriwal(AAP)",
+      "voter id" : "TPS1234"
+    },
+    "8604051234" : {
+      "Name" : "Ashu bash",
+      "cons" : "2",
+      "flag" : "0",
+      "voted to" : "none",
+      "voter id" : "TPX1245"
+    },
+    "8604058220" : {
+      "Name" : "Abc Abc",
+      "cons" : "2",
+      "flag" : "1",
+      "voted to" : "Smt. Krishna Tirath(INC)",
+      "voter id" : "TPX1200"
+    },
+    "8604058222" : {
+      "Name" : "Sunny arora 2",
+      "cons" : "5",
+      "flag" : "1",
+      "voted to" : "Arvid Kejriwal(AAP)",
+      "voter id" : "TXP1236"
+    },
+    "8604058223" : {
+      "Name" : "Arora Xyx",
+      "cons" : "5",
+      "flag" : "0",
+      "voted to" : "none",
+      "voter id" : "TXP1236"
+    },
+    "8604058224" : {
+      "Name" : "Abc abc",
+      "cons" : "5",
+      "flag" : "1",
+      "voted to" : "Smt. Krishna Tirath(INC)",
+      "voter id" : "TXP1233"
+    },
+    "8604058225" : {
+      "Name" : "Sunny",
+      "cons" : "5",
+      "flag" : "1",
+      "voted to" : "Arvid Kejriwal(AAP)",
+      "voter id" : "TXP1234"
+    },
+    "9585978818" : {
+      "Name" : "Akash Singh",
+      "cons" : "5",
+      "flag" : "0",
+      "voted to" : "none",
+      "voter id" : "TPX8604"
+    }
+  }
+}

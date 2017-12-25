@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapp.app.com.mobilevoting.FragmentPollStatus">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/cons_arrays"
+            android:prompt="@string/cons_prompt"
+            android:spinnerMode="dialog" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:id="@+id/linearLayout3">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Status" />
+
+    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/piechart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

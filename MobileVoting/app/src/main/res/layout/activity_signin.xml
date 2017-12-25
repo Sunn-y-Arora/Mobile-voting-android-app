@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapp.app.com.mobilevoting.Home">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout5"
+        android:layout_alignRight="@+id/linearLayout5"
+        android:layout_alignTop="@+id/linearLayout5"
+        android:layout_marginTop="83dp"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voter ID    "
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Voter Id"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="63dp"
+                tools:layout_editor_absoluteY="48dp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="81dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.55"
+                android:text="Mobile No        "
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/textView"
+                android:ems="10"
+                android:hint="Reg. Mobile no"
+                android:inputType="phone"
+                tools:layout_editor_absoluteX="63dp"
+                tools:layout_editor_absoluteY="118dp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignLeft="@+id/linearLayout5"
+        android:layout_alignStart="@+id/linearLayout5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                tools:layout_editor_absoluteX="120dp"
+                tools:layout_editor_absoluteY="230dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="48dp"
+                android:text="Admin" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Mobile Voting App"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+</RelativeLayout>

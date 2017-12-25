@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapp.app.com.mobilevoting.CastVote">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:prompt="@string/spinner_header"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/party"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/candidate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/vote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Vote"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+</FrameLayout>

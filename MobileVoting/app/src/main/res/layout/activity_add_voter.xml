@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapp.app.com.mobilevoting.AddVoter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout10">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/vcons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="144dp"
+                android:ems="10"
+                android:hint="Constituency No"
+                android:inputType="number"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/vname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="55dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/vmob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/vname"
+                android:layout_alignRight="@+id/vname"
+                android:layout_below="@+id/vname"
+                android:ems="10"
+                android:hint="Mobile no"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/vid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vcons"
+                android:ems="10"
+                android:hint="Voter ID"
+                android:inputType="textPersonName" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Voter"
+        android:layout_below="@+id/linearLayout10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="21dp"
+        android:text="Adding New Voter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>
